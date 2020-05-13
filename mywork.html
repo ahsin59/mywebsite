@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myteam</title>
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <!-- Fontawsom- CSS and Hover -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" type="text/css"/>
+
+</head>
+<style>
+    section{
+        background-color: cornflowerblue;
+    }
+ body{
+   background-color: cornflowerblue;
+ }
+ h1{
+   color: mediumblue;
+ }
+footer{
+  background-color:black;
+}
+h5{
+  color:#E5E5F4;
+}
+p {
+  color:black;
+}
+div {
+  color:#E5E5F4;
+}
+hr{
+  border:1px solid white;
+  position:relative;
+}
+h2{
+  color:#92261B;
+}
+jumbotron{
+  color:#8C6663;
+}
+.a{
+  color: black;
+}
+.body{
+        background-color: cornflowerblue;
+    }
+    .img::-moz-selection {
+          color: #fff;
+          background: transparent;
+      }
+      header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 200px 0 150px;
+  color: white;
+}
+media only screen and (min-width: 768px) {
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    padding: 200px 0;
+  }
+}
+
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center;
+}
+
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+    font-size: 80px;
+  }
+}
+
+header.masthead .post-heading h1 {
+  font-size: 35px;
+}
+
+header.masthead .post-heading .meta,
+header.masthead .post-heading .subheading {
+  line-height: 1.1;
+  display: block;
+}
+
+header.masthead .post-heading .subheading {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 30px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header.masthead .post-heading .meta {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+header.masthead .post-heading .meta a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .post-heading h1 {
+    font-size: 55px;
+  }
+  header.masthead .post-heading .subheading {
+    font-size: 30px;
+  }
+}
+
+.post-preview > a {
+  color: #212529;
+}
+
+.post-preview > a:focus, .post-preview > a:hover {
+  text-decoration: none;
+  color: #0085A1;
+}
+
+.post-preview > a > .post-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.post-preview > a > .post-subtitle {
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+.post-preview > .post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  color: #868e96;
+}
+
+.post-preview > .post-meta > a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+  text-decoration: underline;
+  color: #0085A1;
+}
+.footer-copyright{
+  background-color:rgb(129, 78, 10);
+}
+@media only screen and (min-width: 768px) {
+  .post-preview > a > .post-title {
+    font-size: 36px;
+  }
+}
+
+
+</style>
+<body>
+  <header class="container-fluid">
+    <!-- Bootstrap-Navigationbar -->
+      
+    <nav class="navbar fixed-top   navbar-dark bg-dark">
+      <div class="log-div">
+        <img src="img/logo_mylife.png" width="140px" height="70px">
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="my-portfolio.html" target="_blank">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="myteam.html">Teams</a>
+              </li>
+              
+              </li> <li class="nav-item">
+                <a class="nav-link" href="mywork.html">My Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Gallery</a>
+              </li>
+                   <li class="nav-item">
+                <a class="nav-link" href="contactus.html">contact Us</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#"></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header> 
+  <hr/>
+ <section>
+  <header class="masthead" style="background-image: url('static/images/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Mywork</h1>
+            <span class="subheading">My work is Game, a very seriouse game,,</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+ <!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="post-preview">
+        <a href="post.html">
+          <h2 class="post-title">
+            Rolling stone Rockband Website
+          </h2>
+          <h3 class="post-subtitle">
+            My first project is to  create Website with HTML5,CSS3 and BOOTSTRAP3.3.7 and JavaScript
+          </h3>
+        </a>
+        <p class="post-meta">website by
+          <a target=â€_blankâ€  href="https://ahsin59.github.io/milestone_1_rolling_stone/index.html">Rollingstone</a>
+          on April 04, 2020</p>
+          <img src="static/images/rollingstone1.jpg">
+      </div>
+      <hr>
+      <div class="post-preview">
+        <a href="post.html">
+          <h2 class="post-title">
+            Office Dashboard
+          </h2>
+          <h3 class="post-subtitle">
+            My second project is to  create Website with HTML5,CSS3 and BOOTSTRAP3.3.7 and JavaScript
+          </h3>
+        </a>
+        <p class="post-meta">website by
+          <a target="_blank" href="https://ahsin59.github.io/office_dashboard_milestone2/">office_Dashboard</a>
+          on September 18, 2019</p>
+           <img src="static/images/85611i175419ACF0117663.png">
+        </div>
+      <hr>
+      <div class="post-preview">
+        <a href="post.html">
+          <h2 class="post-title">
+          ONLINE online-festive-recipe-cookbook
+          </h2>
+          <h3 class="post-subtitle">
+            My thrid project is SPA is online cookbook using HTML5,CSS3,Bootstrap4,JavaScript,python3 and dtatbase Mongodb and Heroku deployement
+          </h3>
+        </a>
+        <p class="post-meta">web Application by
+          <a target="_blank" href="https://online-festive-recipe-cookbook.herokuapp.com/">online festival cookbook</a>
+          on August 24, 2019</p>
+           <img src="static/images/maxresdefault.jpg" width="600px">
+        </div>
+      <hr>
+      <div class="post-preview">
+        <a href="post.html">
+          <h2 class="post-title">
+           D_jango ONLINE STORE
+          </h2>
+          <h3 class="post-subtitle">
+            MY forth project is online  fashion store using Html5,css3,bootstrap4,JavaScript and django framework
+          </h3>
+        </a>
+        <p class="post-meta">Application by
+          <a href="#">D_jango online store</a>
+          on July 8, 2019</p>
+          <img src="static/images/django-class-3.png" width="600px">
+      </div>
+      <hr>
+      <div class="post-preview">
+        <a href="post.html">
+          <h2 class="post-title">
+           MOBILE FIRST APPLICATION  LEYOUT IN J-QUARY
+          </h2>
+          <h3 class="post-subtitle">
+            MY fifth project is  mobile first Application using Html5,css3,bootstrap4,JavaScript J-QUARY and J-QUARY framwork
+          </h3>
+        </a>
+        <p class="post-meta">Application by
+          <a href="#">Mobile first layout</a>
+          on July 8, 2019</p>
+          <img src="static/images/mad_blog_5d7b9a546fd811568381524.png">
+      </div>
+      <!-- Pager -->
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+ </section>
+ 
+   <br>
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- JQuery Core JavaScript -->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<link src="static/js/min.js"/>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">@Address</h5>
+        
+        <h3>FlatC 194 Vicarage Road, LONDON E10 5DX.</h3>
+        
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Social Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="www.facebook.com">Facebook</a>
+          </li>
+          <li>
+            <a href="www.google.co.uk">Google</a>
+          </li>
+          <li>
+            <a href="www.linkedin.com">Linkedin</a>
+          </li>
+          <li>
+            <a href="www.youtube.com">Youtube</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Social Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="www.instagram.com">Instagram</a>
+          </li>
+          <li>
+            <a href="www.twitter.com">Twitter</a>
+          </li>
+          <li>
+            <a href="www.guru.com">Guru</a>
+          </li>
+          <li>
+            <a href="www.upwork.com">Upwork</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">Â© 2020 Copyright:
+    Mohammed Javed
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+  
+</body>
+</html>
+
+
