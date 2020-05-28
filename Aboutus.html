@@ -1,117 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abou-tUs</title>
-   <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <head>
+    <title>About Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
    <!-- Fontawsom- CSS and Hover -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" type="text/css"/>
-    <script src="https://kit.fontawesome.com/b1d0168073.js" crossorigin="anonymous"></script>
-</head>
-<style>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+   <link rel="stylesheet" href="static/js/min.js" type="text/JavaScript" />
+   <script src="https://kit.fontawesome.com/b1d0168073.js" crossorigin="anonymous"></script>
+  
+  <style>
   body{
-    background-color:cadetblue;
-  }
- h1{
-   color: mediumblue;
- }
-footer{
-  background-color:black;
-}
-footer-copyright{
-  background-color: chocolate;
-}
-h5{
-  color:#E5E5F4;
-}
-p {
-  color:#E5E5F4;
-}
-div {
-  color:#E5E5F4;
-}
-hr{
-  border:1px solid white;
-  position:relative;
-}
-h2{
-  color:#92261B;
-}
-.jumborton{
-  background-color:darkblue;
-  height: 300px;
-  width: 1320px;
-  align-self: center;
- }
- .jumborton-personal{
-   background-color:darkolivegreen;
-   color: coral;
-   height: 300px;
-   width: 1320px;
-  }
-  .jumborton-pro{
-   background-color:deepskyblue;
-   color: coral;
-   height: 300px;
-   width: 1320px;
-  }
-
- .card{
-  background-color:rgba(211, 154, 41, 0.753);  
-  width: 700px;
-  height: 400px;
-  }
-  .lead{
+   background-color: darkkhaki;
+      }
+  .jumbotron{
+      background-image: url("static/images/image.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top;
+      height: auto;
+      width: 100%;
       color: white;
-  }
-  .h2{
-   color: rgb(226, 223, 43);
-    }
-  .vl {
-   border-left: 6px solid white;
-   height: 150px;
+      border: 2px solid white;
+    
+        }
+ 
+ h5{
+   color: white;
+ }
+ h1{
+   color:white;
+ }
+ p{
+   color: white;
    
-  }
-  .card-header-top{
+ }
+ .img-fluid{
+      border: 2px solid black;
+ } 
+ footer{
     background-color: black;
-    color: white;
-    }
-  .card-header-bottom{
-    background-color: black;
-    color: white;
-    }
-  .card-info{
-           background-color: cornflowerblue;
-       }
-  .nobull {
-            list-style-type: none;
-         }
-  .info-pill{
-           background-color:#0A0701;
-           color:white;
-           width: 500px;
-          
-         }
-  .card-title{
-           color:teal;
-         }
-  .card-text{
-           color: white;
-         }
-  .li>i{
-           color: chartreuse;
-         }
-  .card-pro{
-    background-color: blueviolet;
-  }
-  .footer-copyright{
-           background-color: chocolate;
-  }
+ }
+ .footer-copyright{
+   background-color:rgb(129, 78, 10);
+ }
+ a{
+   display: inline-block;
+   margin: 0 10px 0 0;
+ } 
+ a:hover {
+  color: lightblue;
+}
+ .fa-facebook{
+   color:darkblue;
+ } 
+ .fa-facebook:hover {
+  color:white;
+}
+.fa-google{
+  color: red;
+}
+.fa-google:hover{
+  color:white;
+}
+.fa-linkedin{
+  color: white;
+}
+.fa-linkedin:hover{
+  color: dodgerblue;
+}
+.fa-youtube{
+  color:darkred;
+}
+.fa-youtube:hover{
+  color: white;
+}
+.fa-instagram{
+  color:fuchsia;
+}
+.fa-instagram:hover{
+  color: white;
+}
+.fa-laptop{
+  color:turquoise;
+}
+.fa-laptop:hover{
+  color: white;
+}
+.fa-laptop-house{
+  color: blueviolet;
+}
+.fa-laptop-house:hover{
+  color: white;
+}
+.fa-at{
+  color: blue;
+}
+.fa-at:hover{
+  color: white;
+}
+.fa-phone-alt{
+  color: darkgreen;
+}
+.fa-phone-alt:hover{
+  color: white;
+}
+.ul{
+  text-align: center;
+}
 
+}
 </style>
-<body>
+</head>
+<body class="div-1">
   <header class="container-fluid">
     <!-- Bootstrap-Navigationbar -->
       
@@ -135,10 +139,10 @@ h2{
                 <a class="nav-link" href="my-portfolio.html" target="_blank" >Portfolio</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="myteam.html">Teams</a>
+                <a class="nav-link" href="myteam.html">My teams</a>
               </li>
               
-              </li> <li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link" href="mywork.html">My Work</a>
               </li>
               <li class="nav-item">
@@ -147,7 +151,7 @@ h2{
                    <li class="nav-item">
                 <a class="nav-link" href="contactus.html">contact Us</a>
           </li>
-          </li>
+          
           <li class="nav-item">
             <a class="nav-link disabled" href="#"></a>
           </li>
@@ -158,125 +162,62 @@ h2{
         </form>
       </div>
     </nav>
-  </header> &nbsp;
-  <br><br>
-  <section>
-    <div class="container-fluid p-3 my-3 bg-dark text-white">
-      <nav>
-        <ul class="nobull">
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Personal Life</a></li>
-          <li><a href="#">Professional Life</a></li>
-          <li><a href="#">Interest and Hobbies</a></li>
-          
-        </ul>
-      </nav>
-    
-    </div>
-    <div class="jumborton">
-            <div class="row">
-                <div class="col-md-8">
-                    <h2><strong>About Me</strong></h2>
-                  <p class="lead">Hi my name is Mohammed Javed and i am Living LONDON since 11th November 2001 and i am living 
-                      with my family here with my beautifull wife and my lovely son i am freelancer in web development field 
-                      i am qualified full stack web developer in code institute well reputed online 
-                      platform we provide the service of our clients related to websites web Applications 
-                      portfolios and Graphic designs and also bootstrap themes for 
-                      client our all website and Application build under the Responsive layout   
-                      we provide excellent customer service with honesty and Hardworking and also go extra mile 
-                      to provide the customer 100% satisfactions </p>
-                </div>
-                <div class="col-md-1">
-                  <div class="vl"></div>
-                </div>
-                <div class="col-md-3">
-                    <img class="img-fluid" src="static/images/about.jpg" width="225px" height="290px">
-                </div>
-            </div>
-        </div>
     <br>
-    <div class="jumborton-personal">
+  </header> 
+  <br><br>
+    
+  <section>
+   
+    <div class="container" style="margin-top:30px"> 
       <div class="row">
-          <div class="col-md-8">
-              <h2><strong>Personal Life</strong></h2>
-            <p class="lead">My personal life is very simple family man i am born <strong>14.september,1976</strong> in pakistan,Faisalabad who  Living LONDON since 11th November 2001 and i am living 
-                with my family here with my beautifull wife and my lovely son working Thursday to sunday and three days off 
-              and spend the time with my family going out shopping and also i love to spend the time with my son to playing with cars and 
-            also sometime we play XBOX togather and last is buddy time just me and my son going out chill out.  </p>
-            </div>
-          <div class="col-md-4">
-          
-              <img src="static/images/feature-image-2.jpg" class="" width="420px" height="300px" padding-top="4px">
+        <div class="col-sm-4">
+          <div class="img">
+            <img class="img-fluid" src="static/images/about.jpg"  height="200px" border:1px solidwhite;>
           </div>
+          <hr class="d-sm-none">
+        </div>
+        <div class="col-sm-8">
+          <h2>ABOUT-ME</h2>
+          <p>Hi my name is Mohammed Javed and i am Living LONDON since 11th November 2001 and i am living 
+            with my family here with my beautifull wife and my lovely son i am freelancer in web development field 
+            i am qualified full stack web developer in code institute well reputed online 
+            platform we provide the service of our clients related to websites web Applications 
+            portfolios and Graphic designs and also bootstrap themes for 
+            client our all website and Application build under the Responsive layout   
+            we provide excellent customer service with honesty and Hardworking and also go extra mile 
+            to provide the customer 100% satisfactions</p>
+          
+          <br>
+          <h2>Personal Life</h2>
+          
+          <p>My Professional Life is i complete MBA in Manila university of phillphine 1999 in information and Technology
+            i am working as a controller Thursday to sunday and also i am freelancer in web development field 
+            i am qualified full stack web developer in Edureka online plateform well reputed online 
+            platform we provide the service of our clients related to websites web Applications 
+            portfolios and Graphic designs and also bootstrap themes for 
+           client our all website and Application build under the Responsive layout   
+           we provide excellent customer service with honesty and Hardworking and also go extra mile 
+           to provide the customer 100% satisfactions my Hobbies and interest is 
+           Reading books,watching Movies and Listening Music and socializing with freinds and social networking 
+           facebook,Twitter,Linkedin and instagram and the Language i can speak and write is 
+           english,Urdu and Punjabi and basic communication with italian and spanish language.
+           </p>
+          <br>
+          <h2>professional Life</h2>
+        
+          <p>My Professional Life is done MBA in Manila university of phillphine 1999 in information and Technology
+            i am working as a controller Thursday to sunday and also i am freelancer in web development field 
+            i am qualified full stack web developer in code institute well reputed online 
+            platform we provide the service of our clients related to websites web Applications 
+            portfolios and Graphic designs and also bootstrap themes for 
+           client our all website and Application build under the Responsive layout   
+           we provide excellent customer service with honesty and Hardworking and also go extra mile 
+           to provide the customer 100% satisfactions</p>
+           
+        </div>
       </div>
-  </div>
-  <br>
-  <div class="jumborton-pro">
-    <div class="row">
-        <div class="col-md-8">
-            <h2><strong>Professional Life</strong></h2>
-          <p class="lead">My Professional Life is done MBA in Manila university of phillphine 1999 in information and Technology
-                          i am working as a controller Thursday to sunday and also i am freelancer in web development field 
-                          i am qualified full stack web developer in code institute well reputed online 
-                          platform we provide the service of our clients related to websites web Applications 
-                          portfolios and Graphic designs and also bootstrap themes for 
-                         client our all website and Application build under the Responsive layout   
-                         we provide excellent customer service with honesty and Hardworking and also go extra mile 
-                         to provide the customer 100% satisfactions</p>
-        </div>
-        <div class="col-md-1">
-          <div class="vl"></div>
-        </div>
-        <div class="col-md-3">
-        
-            <img src="static/images/pro.jpg" class="" width="225px" height="290px" padding-top="4px">
-        </div>
     </div>
-</div>
-<br>
-    <div class="row">
-          <div class="card text">
-              <div class="card-header">
-                <ul class="nav nav-pills card-header-pills">
-                  <li class="nav-item">
-                    <h4>Hobbies And Intrest</h4>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">My Hobbies&Interest</h5><hr/>
-                <p class="card-text">My interest and Hobbies as fellows:.</p>
-                <ul class="info-pill">
-                  <li><i class="fas fa-book" style="font-size:30px"></i>  Reading Books</li>
-                  <li><i class="fas fa-headphones" style="font-size:30px"></i>  Watching movies and enjoying music</li>
-                  <li><i class="fas fa-futbol" style="font-size:30px"></i>  Playing football, cricket, basketball and swimming. </li>
-                  <li><i class="fas fa-at" style="font-size:30px"></i>  Socializing with friends and going out family and also friends  </li>
-              </ul>
-              </div>
-            </div>
-        
-       <div class="col-lg-4">
-         <div class="card-pro">
-           <div class="car-title">
-             <div class="card-header-top">Language</div>
-             <div class="card-body">
-               <p>The Language i can speak write and Read perfectly effectively and effectively</p>
-               <ol>
-                 <li>English</li>
-                 <li>Urdu</li>
-                 <li>Punjabi</li>
-                 <li>Italian</li>
-               </ol>
-             </div>
-           </div>
-         </div>
-         <div class="card-header-bottom">
-          English---Urdue---Punjabi---Italian....
-        </div>
-       </div>
-</section>
-
- 
+  </section>
    
      <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -284,101 +225,61 @@ h2{
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <!-- JQuery Core JavaScript -->
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
-<link src="static/js/min.js"/>
 
-
-</script>
-<br>
+<br><br>
 
 <!-- Footer -->
 <footer class="page-footer font-small blue pt-4">
-
   <!-- Footer Links -->
   <div class="container-fluid text-center text-md-left">
-
     <!-- Grid row -->
     <div class="row">
-
       <!-- Grid column -->
       <div class="col-md-6 mt-md-0 mt-3">
-
         <!-- Content -->
-        <h5 class="text-uppercase">Address</h5>
-      
-        <p>FlatC 194 Vicarage Road, LONDON E10 5DX.</p>
-        
+        <h5 class="text-uppercase">Contact Me</h5>
+        <p><i class="fas fa-at fa-2x"></i>ahsin59@hotmail.co.uk.</p>
+        <p><i class="fas fa-phone-alt fa-2x"></i> 07711264742.</p>
       </div>
       <!-- Grid column -->
-
       <hr class="clearfix w-100 d-md-none pb-3">
-
       <!-- Grid column -->
       <div class="col-md-3 mb-md-0 mb-3">
-
         <!-- Links -->
-        <h5 class="text-uppercase">Social Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="www.facebook.com">Facebook</a>
-          </li>
-          <li>
-            <a href="www.google.co.uk">Google</a>
-          </li>
-          <li>
-            <a href="www.linkedin.com">Linkedin</a>
-          </li>
-          <li>
-            <a href="www.youtube.com">Youtube</a>
-          </li>
-        </ul>
-
+       <h5 class="text-uppercase">Social Links</h5>
+           <ul class="nav">
+              <li><a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a></li>
+              <li><a target="_blank" href="https://www.google.com"><i class="fab fa-google fa-2x"></i></a></li>
+              <li><a target="_blank" href="https://www.linkedin.com"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+              <li><a target="_blank" href="https://www.youtube.com"><i class="fab fa-youtube fa-2x"></i></a></li>
+          </ul>
       </div>
-      <!-- Grid column -->
-
       <!-- Grid column -->
       <div class="col-md-3 mb-md-0 mb-3">
-
         <!-- Links -->
-        <h5 class="text-uppercase">Social Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="www.instagram.com">Instagram</a>
-          </li>
-          <li>
-            <a href="www.twitter.com">Twitter</a>
-          </li>
-          <li>
-            <a href="www.guru.com">Guru</a>
-          </li>
-          <li>
-            <a href="www.upwork.com">Upwork</a>
-          </li>
+        <h5 class="text-uppercase">Fellow Me</h5>
+        <ul class="nav">
+          <li><a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li>
+          <li><a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a></li>
+          <li><a target="_blank" href="https://www.guru.com"><i class="fas fa-laptop fa-2x"></i></a></li>
+          <li><a target="_blank" href="https://www.upwork.com"><i class="fas fa-laptop-house fa-2x"></i></a></li>
         </ul>
-
       </div>
       <!-- Grid column -->
-
     </div>
     <!-- Grid row -->
-
   </div>
   <!-- Footer Links -->
-
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">Â© 2020 Copyright:
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
     Mohammed Javed
   </div>
   <!-- Copyright -->
-
 </footer>
 <!-- Footer -->
-  
 </body>
 </html>
 
