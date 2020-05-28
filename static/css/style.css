@@ -1,4 +1,193 @@
 
-.body{
-   background-color: brown;
+/*----------- General Styling different background colors ------------*/
+.jumbotron{
+  background-color: red;
+  color:#fff;
+}
+.box{
+  border:1px solid #ccc;
+  padding:20px;
+}
+body{
+   background-color: white;
+}
+section{
+   background-color: cornflowerblue;
+}
+div-1{
+   background-color:cadetblue;
+ }
+ .div-2{
+   background-color: rgb(30, 93, 210);
+ }
+ .background{
+    background-color: cornflowerblue;
+ }
+ .color{
+    background-color: cornflowerblue;
+ }
+ 
+ /*----------- General heading,paragraph and other tags ------------*/
+h1{
+   color: white;
+ }
+ h2{
+   color:#92261B;
+   text-align: center;
+}
+h3{
+   color: darkgoldenrod;
+   padding-top: 20px;
+}
+h4{
+   color:blue;
+   
+ }
+ h5{
+   color:#E5E5F4;
+ }
+ h6{
+   color:dimgray;
+}
+div {
+  color:#E5E5F4;
+  
+}
+.name{
+   color:blueviolet;
+   text-align: center;
+ }
+ p{
+    color: white;
+ }
+hr{
+ border:1px solid white;
+ position:relative;
+ 
+}
+.image-fluid{
+  text-align: center;
+}
+ .main{
+    padding-bottom: 20%;
+    padding-top: 20%;
+ }
+/*----------- jumbotron different background colors ------------*/
+ 
+ 
+ .jumbotron-other-color-2{
+   color:#8C6663;
+   background-color: darkslategray;
+   padding-top: 10%;
+   padding-bottom: 10%;
+   width: 1600px;
+   margin: 10px auto;
+   text-align: center;
+   border: 1px solid black;
+ }
+ * {
+   box-sizing: border-box;
+ }
+ color{
+   background-color:cyan;
+   margin: 0;
+  font-family: Arial;
+ }
+ .lead{
+     background-color:goldenrod;
+     height: 300px;
+     border-style: dashed;
+    }
+  .lead-1{
+    background-color: firebrick;
+  }
+.img {
+   height: 200px;
+   background: #aaa;
+ }
+/*----------- bootstrap card styling------------*/
+.card{
+   background-color:blue;
+   height: 1100px;
+   padding-top: 20%;
+ }
+ .card-header{
+   color: black;
+ }
+.card-info{
+   background-color: black;
+   }
+ /*----------- footer ------------*/
+ footer{
+    background-color: black;
+ }
+ .footer-copyright{
+   background-color:rgb(129, 78, 10);
+ }
+ a{
+   display: inline-block;
+   margin: 0 10px 0 0;
+ } 
+ a:hover {
+  color: lightblue;
+}
+ .fa-facebook{
+   color:darkblue;
+ } 
+ .fa-facebook:hover {
+  color:white;
+}
+.fa-google{
+  color: red;
+}
+.fa-google:hover{
+  color:white;
+}
+.fa-linkedin{
+  color: white;
+}
+.fa-linkedin:hover{
+  color: dodgerblue;
+}
+.fa-youtube{
+  color:darkred;
+}
+.fa-youtube:hover{
+  color: white;
+}
+.fa-instagram{
+  color:fuchsia;
+}
+.fa-instagram:hover{
+  color: white;
+}
+.fa-laptop{
+  color:turquoise;
+}
+.fa-laptop:hover{
+  color: white;
+}
+.fa-laptop-house{
+  color: blueviolet;
+}
+.fa-laptop-house:hover{
+  color: white;
+}
+.fa-at{
+  color: blue;
+}
+.fa-at:hover{
+  color: white;
+}
+.fa-phone-alt{
+  color: darkgreen;
+}
+.fa-phone-alt:hover{
+  color: white;
+}
+.fa-mobile{
+  color: #92261B;
+}
+.fa-mobile:hover{
+  color: white;
 }
