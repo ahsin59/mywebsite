@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>mywork</title>
+  <title>myteam</title>
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    <!-- Fontawsom- CSS and Hover -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" type="text/css"/>
-   <script type="text/javascript" src="static/js/min.js"></script>
-   <script src="https://kit.fontawesome.com/b1d0168073.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" type="text/css"/>
+
+</head>
 <style>
     section{
         background-color: cornflowerblue;
@@ -21,12 +20,14 @@
  h1{
    color: mediumblue;
  }
-
+footer{
+  background-color:black;
+}
 h5{
   color:#E5E5F4;
 }
 p {
-  color:white;
+  color:black;
 }
 div {
   color:#E5E5F4;
@@ -38,78 +39,11 @@ hr{
 h2{
   color:#92261B;
 }
-i{
-   color: rgb(129, 78, 10);
- } 
 jumbotron{
   color:#8C6663;
 }
-footer{
-    background-color: black;
- }
- .footer-copyright{
-   background-color:rgb(129, 78, 10);
- }
- a{
-   display: inline-block;
-   margin: 0 10px 0 0;
- } 
- a:hover {
-  color: lightblue;
-}
- .fa-facebook{
-   color:darkblue;
- } 
- .fa-facebook:hover {
-  color:white;
-}
-.fa-google{
-  color: red;
-}
-.fa-google:hover{
-  color:white;
-}
-.fa-linkedin{
-  color: white;
-}
-.fa-linkedin:hover{
-  color: dodgerblue;
-}
-.fa-youtube{
-  color:darkred;
-}
-.fa-youtube:hover{
-  color: white;
-}
-.fa-instagram{
-  color:fuchsia;
-}
-.fa-instagram:hover{
-  color: white;
-}
-.fa-laptop{
-  color:turquoise;
-}
-.fa-laptop:hover{
-  color: white;
-}
-.fa-laptop-house{
-  color: blueviolet;
-}
-.fa-laptop-house:hover{
-  color: white;
-}
-.fa-at{
-  color: blue;
-}
-.fa-at:hover{
-  color: white;
-}
-.fa-phone-alt{
-  color: darkgreen;
-}
-.fa-phone-alt:hover{
-  color: white;
+.a{
+  color: black;
 }
 .body{
         background-color: cornflowerblue;
@@ -143,7 +77,13 @@ header.masthead .site-heading {
   padding: 200px 0 150px;
   color: white;
 }
-
+media only screen and (min-width: 768px) {
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    padding: 200px 0;
+  }
+}
 
 header.masthead .page-heading,
 header.masthead .site-heading {
@@ -165,7 +105,12 @@ header.masthead .site-heading .subheading {
   margin: 10px 0 0;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+    font-size: 80px;
+  }
+}
 
 header.masthead .post-heading h1 {
   font-size: 35px;
@@ -195,7 +140,10 @@ header.masthead .post-heading .meta a {
   color: #fff;
 }
 
-
+@media only screen and (min-width: 768px) {
+  header.masthead .post-heading h1 {
+    font-size: 55px;
+  }
   header.masthead .post-heading .subheading {
     font-size: 30px;
   }
@@ -240,10 +188,14 @@ header.masthead .post-heading .meta a {
 .footer-copyright{
   background-color:rgb(129, 78, 10);
 }
+@media only screen and (min-width: 768px) {
+  .post-preview > a > .post-title {
+    font-size: 36px;
+  }
+}
 
 
 </style>
-</head>
 <body>
   <header class="container-fluid">
     <!-- Bootstrap-Navigationbar -->
@@ -268,10 +220,10 @@ header.masthead .post-heading .meta a {
                 <a class="nav-link" href="my-portfolio.html" target="_blank">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="myteam.html">My teams</a>
+                <a class="nav-link" href="myteam.html">Teams</a>
               </li>
               
-               <li class="nav-item">
+              </li> <li class="nav-item">
                 <a class="nav-link" href="mywork.html">My Work</a>
               </li>
               <li class="nav-item">
@@ -279,6 +231,7 @@ header.masthead .post-heading .meta a {
               </li>
                    <li class="nav-item">
                 <a class="nav-link" href="contactus.html">contact Us</a>
+          </li>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="#"></a>
@@ -293,11 +246,11 @@ header.masthead .post-heading .meta a {
   </header> 
   <hr/>
  <section>
-  <header class="masthead"style="background-image: url('static/images/home-bg.jpg')" class="img-fluid">
+  <header class="masthead" style="background-image: url('static/images/home-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
-      <div class="row"> 
-        <div class="col-sm-12">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
             <h1>Mywork</h1>
             <span class="subheading">My work is Game, a very seriouse game,,</span>
@@ -309,7 +262,7 @@ header.masthead .post-heading .meta a {
  <!-- Main Content -->
 <div class="container">
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-lg-8 col-md-10 mx-auto">
       <div class="post-preview">
         <a href="post.html">
           <h2 class="post-title">
@@ -389,6 +342,10 @@ header.masthead .post-heading .meta a {
     </div>
   </div>
 </div>
+
+
+
+
  </section>
  
    <br>
@@ -402,58 +359,92 @@ header.masthead .post-heading .meta a {
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
-
+<link src="static/js/min.js"/>
 
 <!-- Footer -->
 <footer class="page-footer font-small blue pt-4">
+
   <!-- Footer Links -->
   <div class="container-fluid text-center text-md-left">
+
     <!-- Grid row -->
     <div class="row">
+
       <!-- Grid column -->
       <div class="col-md-6 mt-md-0 mt-3">
+
         <!-- Content -->
-        <h5 class="text-uppercase">Contact Me</h5>
-        <p><i class="fas fa-at fa-2x"></i>ahsin59@hotmail.co.uk.</p>
-        <p><i class="fas fa-phone-alt fa-2x"></i> 07711264742.</p>
+        <h5 class="text-uppercase">@Address</h5>
+        
+        <h3>FlatC 194 Vicarage Road, LONDON E10 5DX.</h3>
+        
       </div>
       <!-- Grid column -->
+
       <hr class="clearfix w-100 d-md-none pb-3">
+
       <!-- Grid column -->
       <div class="col-md-3 mb-md-0 mb-3">
+
         <!-- Links -->
-       <h5 class="text-uppercase">Social Links</h5>
-           <ul class="nav">
-              <li><a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a></li>
-              <li><a target="_blank" href="https://www.google.com"><i class="fab fa-google fa-2x"></i></a></li>
-              <li><a target="_blank" href="https://www.linkedin.com"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
-              <li><a target="_blank" href="https://www.youtube.com"><i class="fab fa-youtube fa-2x"></i></a></li>
-          </ul>
-      </div>
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-        <!-- Links -->
-        <h5 class="text-uppercase">Fellow Me</h5>
-        <ul class="nav">
-          <li><a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li>
-          <li><a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a></li>
-          <li><a target="_blank" href="https://www.guru.com"><i class="fas fa-laptop fa-2x"></i></a></li>
-          <li><a target="_blank" href="https://www.upwork.com"><i class="fas fa-laptop-house fa-2x"></i></a></li>
+        <h5 class="text-uppercase">Social Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="www.facebook.com">Facebook</a>
+          </li>
+          <li>
+            <a href="www.google.co.uk">Google</a>
+          </li>
+          <li>
+            <a href="www.linkedin.com">Linkedin</a>
+          </li>
+          <li>
+            <a href="www.youtube.com">Youtube</a>
+          </li>
         </ul>
+
       </div>
       <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Social Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="www.instagram.com">Instagram</a>
+          </li>
+          <li>
+            <a href="www.twitter.com">Twitter</a>
+          </li>
+          <li>
+            <a href="www.guru.com">Guru</a>
+          </li>
+          <li>
+            <a href="www.upwork.com">Upwork</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
     </div>
     <!-- Grid row -->
+
   </div>
   <!-- Footer Links -->
+
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+  <div class="footer-copyright text-center py-3">Â© 2020 Copyright:
     Mohammed Javed
   </div>
   <!-- Copyright -->
+
 </footer>
 <!-- Footer -->
+  
 </body>
 </html>
-
-
