@@ -1,285 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>About Me</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-   <!-- Fontawsom- CSS and Hover -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-   <link rel="stylesheet" href="static/js/min.js" type="text/JavaScript" />
-   <script src="https://kit.fontawesome.com/b1d0168073.js" crossorigin="anonymous"></script>
-  
-  <style>
-  body{
-   background-color: darkkhaki;
-      }
-  .jumbotron{
-      background-image: url("static/images/image.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: top;
-      height: auto;
-      width: 100%;
-      color: white;
-      border: 2px solid white;
-    
-        }
- 
- h5{
-   color: white;
- }
- h1{
-   color:white;
- }
- p{
-   color: white;
-   
- }
- .img-fluid{
-      border: 2px solid black;
- } 
- footer{
-    background-color: black;
- }
- .footer-copyright{
-   background-color:rgb(129, 78, 10);
- }
- a{
-   display: inline-block;
-   margin: 0 10px 0 0;
- } 
- a:hover {
-  color: lightblue;
-}
- .fa-facebook{
-   color:darkblue;
- } 
- .fa-facebook:hover {
-  color:white;
-}
-.fa-google{
-  color: red;
-}
-.fa-google:hover{
-  color:white;
-}
-.fa-linkedin{
-  color: white;
-}
-.fa-linkedin:hover{
-  color: dodgerblue;
-}
-.fa-youtube{
-  color:darkred;
-}
-.fa-youtube:hover{
-  color: white;
-}
-.fa-instagram{
-  color:fuchsia;
-}
-.fa-instagram:hover{
-  color: white;
-}
-.fa-laptop{
-  color:turquoise;
-}
-.fa-laptop:hover{
-  color: white;
-}
-.fa-laptop-house{
-  color: blueviolet;
-}
-.fa-laptop-house:hover{
-  color: white;
-}
-.fa-at{
-  color: blue;
-}
-.fa-at:hover{
-  color: white;
-}
-.fa-phone-alt{
-  color: darkgreen;
-}
-.fa-phone-alt:hover{
-  color: white;
-}
-.ul{
-  text-align: center;
-}
 
-}
-</style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.css">
+  <title>About Me</title>
 </head>
-<body class="div-1">
-  <header class="container-fluid">
-    <!-- Bootstrap-Navigationbar -->
-      
-    <nav class="navbar fixed-top   navbar-dark bg-dark">
-      <div class="log-div">
-        <img src="img/logo_mylife.png" width="140px" height="70px">
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portairt"></div>
       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Aboutus.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="my-portfolio.html" target="_blank" >Portfolio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="myteam.html">My teams</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="mywork.html">My Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Gallery.html">Gallery</a>
-              </li>
-                   <li class="nav-item">
-                <a class="nav-link" href="contactus.html">contact Us</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#"></a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        <li class="nav-item">
+          <a href="study.html" class="nav-link">
+            My Study
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            My Projects
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
     </nav>
-    <br>
-  </header> 
-  <br><br>
-    
-  <section>
-   
-    <div class="container" style="margin-top:30px"> 
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="img">
-            <img class="img-fluid" src="static/images/about.jpg"  height="200px" border:1px solidwhite;>
-          </div>
-          <hr class="d-sm-none">
-        </div>
-        <div class="col-sm-8">
-          <h2>ABOUT-ME</h2>
-          <p>Hi my name is Mohammed Javed and i am Living LONDON since 11th November 2001 and i am living 
-            with my family here with my beautifull wife and my lovely son i am freelancer in web development field 
-            i am qualified full stack web developer in code institute well reputed online 
-            platform we provide the service of our clients related to websites web Applications 
-            portfolios and Graphic designs and also bootstrap themes for 
-            client our all website and Application build under the Responsive layout   
-            we provide excellent customer service with honesty and Hardworking and also go extra mile 
-            to provide the customer 100% satisfactions</p>
-          
-          <br>
-          <h2>Personal Life</h2>
-          
-          <p>My Professional Life is i complete MBA in Manila university of phillphine 1999 in information and Technology
-            i am working as a controller Thursday to sunday and also i am freelancer in web development field 
-            i am qualified full stack web developer in Edureka online plateform well reputed online 
-            platform we provide the service of our clients related to websites web Applications 
-            portfolios and Graphic designs and also bootstrap themes for 
-           client our all website and Application build under the Responsive layout   
-           we provide excellent customer service with honesty and Hardworking and also go extra mile 
-           to provide the customer 100% satisfactions my Hobbies and interest is 
-           Reading books,watching Movies and Listening Music and socializing with freinds and social networking 
-           facebook,Twitter,Linkedin and instagram and the Language i can speak and write is 
-           english,Urdu and Punjabi and basic communication with italian and spanish language.
-           </p>
-          <br>
-          <h2>professional Life</h2>
-        
-          <p>My Professional Life is done MBA in Manila university of phillphine 1999 in information and Technology
-            i am working as a controller Thursday to sunday and also i am freelancer in web development field 
-            i am qualified full stack web developer in code institute well reputed online 
-            platform we provide the service of our clients related to websites web Applications 
-            portfolios and Graphic designs and also bootstrap themes for 
-           client our all website and Application build under the Responsive layout   
-           we provide excellent customer service with honesty and Hardworking and also go extra mile 
-           to provide the customer 100% satisfactions</p>
-           
-        </div>
-      </div>
-    </div>
-  </section>
-   
-     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <!-- JQuery Core JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+  </header>
 
-<br><br>
+  <main id="about">
+    <h1 class="lg-heading">
+      About
+      <span class="text-secondary">Me</span>
+    </h1>
+    <h2 class="sm-heading">
+      Let me tell you a few things...
+    </h2>
+    <div class="about-info">
+      <img src="img/portrait.jpg"  width="250px" height="250px alt="M Javed"  class="bio-image">
 
-<!-- Footer -->
-<footer class="page-footer font-small blue pt-4">
-  <!-- Footer Links -->
-  <div class="container-fluid text-center text-md-left">
-    <!-- Grid row -->
-    <div class="row">
-      <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3">
-        <!-- Content -->
-        <h5 class="text-uppercase">Contact Me</h5>
-        <p><i class="fas fa-at fa-2x"></i>ahsin59@hotmail.co.uk.</p>
-        <p><i class="fas fa-phone-alt fa-2x"></i> 07711264742.</p>
+      <div class="bio">   
+        <h3 class="text-secondary">BIO</h3>
+        <p>My name is Mohammad Javed and  as i am looking for oppourtunties in web developement field i m stuyding in 
+          Edureka online full stack web developer plateform  i finish my front end part of full stack web developement  in 
+          Front End Developer i did Html5,Css3,Java script,Jquery,Ajax JqueryUI mobile developement,Angular Js and Bootstrap framwork 
+          i like watching movies listening music and get togathers with family and freinds.</p>
       </div>
-      <!-- Grid column -->
-      <hr class="clearfix w-100 d-md-none pb-3">
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-        <!-- Links -->
-       <h5 class="text-uppercase">Social Links</h5>
-           <ul class="nav">
-              <li><a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a></li>
-              <li><a target="_blank" href="https://www.google.com"><i class="fab fa-google fa-2x"></i></a></li>
-              <li><a target="_blank" href="https://www.linkedin.com"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
-              <li><a target="_blank" href="https://www.youtube.com"><i class="fab fa-youtube fa-2x"></i></a></li>
-          </ul>
+      <div class="job job-A1">
+        <h3 class="text-secondary">What do I do</h3>
+        <p> I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.</p>
       </div>
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-        <!-- Links -->
-        <h5 class="text-uppercase">Fellow Me</h5>
-        <ul class="nav">
-          <li><a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li>
-          <li><a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a></li>
-          <li><a target="_blank" href="https://www.guru.com"><i class="fas fa-laptop fa-2x"></i></a></li>
-          <li><a target="_blank" href="https://www.upwork.com"><i class="fas fa-laptop-house fa-2x"></i></a></li>
-        </ul>
+      <div class="job job-A2">
+        <h3 class="text-secondary">How do I do</h3>
+        <p> I follow form as well as function. I know that the aesthetics of effective design combined with application speed, security 
+            and reliability combine to create a great user experience.</p>
       </div>
-      <!-- Grid column -->
+      <div class="job job-A3">
+        <h3 class="text-secondary">Why hire me?</h3>
+        <p>I work quickly and effectively in getting things built and working across the stack. I'm an excellent communicator who thrives in bright and 
+            enthusiastic teams and I'm aslo a self starter when working solo.</p>
+      </div>
+    <div class="job job-1">
+      <h3>Edureka Online web development plateform</h3>
+      <h6 class="text-secondary">Full Stack Developer</h6>
+      <p>Full Stack Web Developer Skilled in everything from HTML to Heroku. The capacity for structural and design thinking. </p>
     </div>
-    <!-- Grid row -->
-  </div>
-  <!-- Footer Links -->
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    Mohammed Javed
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
+
+    <div class="job job-2">
+      <h3>Edureka Front End developement</h3>
+      <h6 class="text-secondary">Front End Developer</h6>
+      <p>I'm skilled in User Experience Design using the trinity of HTML/CSS/Javascript. 
+         I also have extensive experience in Front End Frameworks such as Angular and React .</p>
+    </div>
+
+    <div class="job job-3">
+      <h3>Edureka Back End developement</h3>
+      <h6 class="text-secondary">Back End developement</h6>
+      <p>I specialize in data-driven web applications. Many of my projects utilise document-based data.
+         I use Python and Django in conjunction with MongoDB to process and present information.</p>
+    </div>
+  </main>
+
+  <footer id="main-footer">
+    Copyright &copy; 2020
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
-</html>
 
+</html>
