@@ -3,6 +3,7 @@
 .jumbotron{
   background-color:#FF5733;
   color:#fff;
+  height:50px;
 }
 .box{
   border:1px solid #ccc;
